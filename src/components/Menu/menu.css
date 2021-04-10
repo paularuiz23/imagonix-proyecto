@@ -1,0 +1,36 @@
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+img{
+    width: 200px;
+}
+
+.banner{
+    width: 100%;
+    background: rgba;
+    background: #000000a3;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../../assets/images/menu.png")!important;
+}
+
+.subrayado{
+    border-bottom: 0px solid rgb(255, 0, 0);
+    font-size: 17px;
+}
+
+.subrayado:hover{
+    border-bottom: 3px solid rgb(255, 16, 16);
+}
+
+@font-face{
+    font-family: jane;
+    src: url("../../assets/fonts/JaneSaloman.ttf");
+}
+
+.text-jane{
+    font-family: jane;
+}

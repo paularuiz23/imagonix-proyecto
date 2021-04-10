@@ -1,0 +1,30 @@
+section{
+    background: #411414;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+video:focus{
+    outline:none;
+}
+
+@font-face {
+    font-family: bison;
+    src: url("../../assets/fonts/Bison-Bold.ttf");
+}
+
+.text-bison{
+    font-family: bison;
+}
+
+@font-face{
+    font-family: orator;
+    src: url("../../assets/fonts/OratorStd.ttf");
+}
+
+.text-orator{
+    font-family: orator;
+}

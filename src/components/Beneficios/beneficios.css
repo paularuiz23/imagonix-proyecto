@@ -1,0 +1,71 @@
+.text-benefi{
+    background: white;
+}
+
+#beneficios{
+    background-image: url("../../assets/images/beneficios.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@font-face {
+    font-family: bison;
+    src: url("../../assets/fonts/Bison-Bold.ttf");
+}
+
+.text-bison{
+    font-family: bison;
+}
+
+.display-1{
+    color: #732424;
+}
+
+.fa-tools{
+    padding: 25px 20px;
+}
+
+.fa-lightbulb{
+    padding: 20px 23px;
+}
+
+.fa-laptop{
+    padding: 26px 12px;
+}
+
+.fa-shopping-cart{
+    padding: 25px 15px;
+}
+
+.border {
+    border: 20px solid #732424!important;
+}
+
+.border-y {
+    border: 5px solid #732424!important;
+}
+
+.border-d{
+    border: 1px solid gray!important;
+}
+
+.rounded-circle{
+    color: #732424;
+}
+
+@font-face{
+    font-family: orator;
+    src: url("../../assets/fonts/OratorStd.ttf");
+}
+
+.text-orator{
+    font-family: orator;
+    color: black;
+}

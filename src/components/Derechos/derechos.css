@@ -1,0 +1,33 @@
+.rights{
+    background-color: black; 
+    color: white;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.derechos-img{
+    width: 15%;
+}
+
+.fa-facebook-f{
+    padding: 5px 8px;
+}
+
+.fa-twitter{
+    padding: 5px 5px;
+}
+
+.fa-instagram{
+    padding: 5px 6px;
+}
+
+.fa-fire-alt{
+    padding: 5px 6.5px;
+}
+
+.border-d{
+    border: 1px solid gray!important;
+}

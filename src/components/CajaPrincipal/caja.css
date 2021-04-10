@@ -1,0 +1,81 @@
+.contenedor{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    background-size: cover;
+}
+
+.videoBg{
+	position: absolute;
+	width: 100%;
+	pointer-events: none;
+	z-index: 0;
+    min-width: 1920px;
+}
+
+.z-index-1{
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primary-b{
+    background-color: rgba(0, 0, 0, 0.658);
+    font-size: 30px;
+}
+
+.border-b{
+    border-radius: 30px;
+}
+
+form label{
+    color: black;
+}
+
+form button{
+    font-size: 30px;
+}
+
+@font-face{
+    font-family: agency;
+    src: url("../../assets/fonts/agency-fb.ttf");
+}
+
+.text-agency{
+    font-family: agency;
+}
+
+@font-face {
+    font-family: bison;
+    src: url("../../assets/fonts/Bison-Bold.ttf");
+}
+
+.text-bison{
+    font-family: bison;
+}
+
+@font-face{
+    font-family: orator;
+    src: url("../../assets/fonts/OratorStd.ttf");
+}
+
+.text-orator{
+    font-family: orator;
+}
+
+@font-face{
+    font-family: jane;
+    src: url("../../assets/fonts/JaneSaloman.ttf");
+}
+
+.text-jane{
+    font-family: jane;
+}
+
+.button-terms-conditions{
+    margin-left: 0.5rem;
+    font-size: 13px;
+}

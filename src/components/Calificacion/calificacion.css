@@ -1,0 +1,60 @@
+.beneficios2{
+    background: #411414;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@font-face{
+    font-family: orator;
+    src: url("../../assets/fonts/OratorStd.ttf");
+}
+
+.text-orator{
+    font-family: orator;
+}
+
+.text-secondary{
+    font-size:20px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+  
+#form p {
+    text-align: center;
+}
+  
+
+  
+input[type="radio"] {
+    display: none;
+}
+  
+label {
+    color: rgb(255, 255, 255);
+}
+  
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+  
+label:hover,
+label:hover ~ label {
+    color: rgb(226, 25, 25);
+}
+  
+input[type="radio"]:checked ~ label {
+    color: rgb(243, 17, 17);
+}
+
+.blanco{
+    color: white;
+    font-size: 70px;
+}
